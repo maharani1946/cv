@@ -291,6 +291,7 @@ font-size: 2.6em;
 .about{
 	padding:6em 0 5em;
 }
+
 .head-section h2{
 	font-weight: 900;
 	color: #595959;
@@ -360,7 +361,7 @@ font-size: 2.6em;
     float: left;
     width: 17%;
     margin-right: 5%;
-    background: rgb(241, 238, 9);
+    background: rgb(135, 176, 238);
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -384,7 +385,7 @@ font-size: 2.6em;
     font-weight: 300;
 }
 .year2 {
-    background: #2ceded;
+    background: #9b71e9;
 }
 .year h5 {
     color: rgb(58, 39, 39);
@@ -393,6 +394,12 @@ font-size: 2.6em;
 }
 /*--/details--*/
 /*--skills--*/
+.skill {
+    background: #ffffff;
+    margin-top: 50px;
+    min-height: 350px;
+	position: relative;
+}
 .skills-info h3 {
     font-weight: 900;
     color: #595959;
@@ -410,7 +417,7 @@ font-size: 2.6em;
     height: 7px;
 }
 .skills {
-     margin: 6em 0 5em;
+     margin: 1em 0 0em;
 }
 .grid_2 h3 {
   text-transform: uppercase;
@@ -426,7 +433,7 @@ font-size: 2.6em;
     position: relative;
 }
 .study2 h4 {
-  padding-bottom: 9px;
+  padding-bottom: 7px;
   font-size: 1.2em;
   color: #000;
 }
@@ -447,7 +454,7 @@ font-size: 2.6em;
   background-color: #32ed2c;
 }
 .progress-bar-info {
-  background-color: #eda02c;
+  background-color: #2cc6ed;
 }
 .progress-bar-warning {
   background-color: #ed2cd3;
@@ -809,7 +816,7 @@ color:#fff;
 /*--footer--*/
 .copy {
     background: #2c58ed;
-    padding: 4em 0;
+    padding: 3em 0;
 	text-align: center;
 	margin-top: 50px;
 }

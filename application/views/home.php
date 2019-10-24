@@ -60,7 +60,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li><a class="scroll" href="#about">Resume</a></li>
 					<li><a class="scroll" href="#skills">Skills</a></li>
 					<li><a class="scroll" href="#portfolio">Portfolio</a></li>
-					<li><a class="scroll" href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 		<div class="clearfix">
@@ -170,7 +169,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container">
 			<div class="bottom-grid">
 				<div class="col-md-14 bottom-grid-left">
-					<center><h3>Education</h3></center>
+				<div class="head-section text-center">
+					<h2> Pendidikan </h2>
+					<span> </span>
+				</div>
 					<?php
 						  foreach ($pendidikan as $data) {
 						?>
@@ -193,12 +195,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						?>
 				</div>
 				<div>
-					<center><h1><b>Experience</b></h1></center>
+				<div class="head-section text-center">
+					<h2> Pengalaman </h2>
+					<span> </span>
+				</div>
 					<?php
 						  foreach ($pengalaman as $data) {
 						?>	
 					<div class="grids">
-						
+
 							<div class="year text-center">
 								<h5><?php echo $data->waktu_peng?></h5>
 							</div>	
@@ -208,7 +213,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</div>
 							<div class="clearfix"> </div>
 						</div>
-						
 				</div>
 				<?php 
 				  }
@@ -220,9 +224,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--skills-->
 <div class="skills" id="skills">
 	<div class="container">
-		<div class="skills-info">
-			<h3>Skills</h3>
+
+		<div class="skills-info span">
+		<div class="head-section text-center">
+					<h2> Kemampuan </h2>
+					<span> </span>
+				</div>
 				<div class="study2">
+				<div class="skill">
 					<?php
 						  foreach ($skill as $data) {
 						?>	
@@ -272,14 +281,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--/portfolio-->
 <!--/contact-->
 <div class="footer">
-	
 	<div class="copy">
-	<div class="collapse navbar-collapse">
-	<a href="#"><div class='glyphicon glyphicon-phone'></div>  Whatsaap</a>
-	</div>
 		<div class="container">
-		<p>Copyright © 2019 Natasyah. All Rights Reserved </a></p>
-		</div>
+		<p>Copyright © 2019 Natasyah. All Rights Reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
    </div>
 </div>
    <script type="text/javascript">
@@ -298,6 +302,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						});
 					</script>
 				<a href="#" id="toTop" style="display: block;"><span id="toTopHover"></span><span id="toTopHover"></span> <span id="toTopHover" style="opacity: 1;"> </span></a>
-</div>
+<!-- </div> -->
 </body>
 </html>
